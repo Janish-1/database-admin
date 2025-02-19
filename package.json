@@ -1,0 +1,46 @@
+{
+  "name": "database-admin",
+  "displayName": "Database Admin",
+  "description": "Database Admin Kit",
+  "version": "0.0.1",
+  "publisher": "JanishPancholi",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+    "codezombiech.gitignore",
+    "dbaeumer.vscode-eslint",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "formulahendry.code-runner",
+    "ritwickdey.LiveServer",
+    "yzhang.markdown-all-in-one",
+    "ms-azuretools.vscode-docker",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-containers",
+    "microsoft.sql",
+    "microsoft.vscode-mssql",
+    "mtxr.sqltools",
+    "cweijan.vscode-mysql-client2",
+    "microsoft.vscode-postgresql",
+    "prisma.prisma",
+    "ms-ossdata.vscode-postgresql",
+    "mongodb.mongodb-vscode",
+    "humao.rest-client",
+    "microsoft.vscode-database-tools",
+    "cosmosdb.microsoft-azure-cosmosdb",
+    "cweijan.vscode-database-client2",
+    "hashicorp.terraform",
+    "redhat.ansible",
+    "ms-vscode-remote.remote-ssh-edit",
+    "eamodio.tsl-proxy",
+    "gruntfuggly.todo-tree"
+  ]
+}
