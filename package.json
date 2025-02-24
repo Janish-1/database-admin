@@ -2,7 +2,7 @@
   "name": "database-admin",
   "displayName": "Database Admin",
   "description": "Database Admin Kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "JanishPancholi",
   "engines": {
     "vscode": "^1.97.0"
@@ -36,7 +36,6 @@
     "humao.rest-client",
     "microsoft.vscode-database-tools",
     "cosmosdb.microsoft-azure-cosmosdb",
-    "cweijan.vscode-database-client2",
     "hashicorp.terraform",
     "redhat.ansible",
     "ms-vscode-remote.remote-ssh-edit",
