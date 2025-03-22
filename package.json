@@ -2,7 +2,7 @@
   "name": "database-admin",
   "displayName": "Database Admin",
   "description": "Database Admin Kit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "JanishPancholi",
   "engines": {
     "vscode": "^1.97.0"
