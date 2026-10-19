@@ -1,45 +1,66 @@
 {
   "name": "database-admin",
   "displayName": "Database Admin",
-  "description": "Database Admin Kit",
-  "version": "0.0.3",
+  "description": "AI-free database administration kit: SQL Server, PostgreSQL, MySQL, MongoDB, Redis, SQLite, Oracle, Cosmos DB, plus containers and infrastructure tooling.",
+  "version": "0.1.0",
   "publisher": "JanishPancholi",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.100.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
+  "keywords": [
+    "database",
+    "sql",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "redis",
+    "extension pack"
+  ],
+  "extensionPack": [
     "eamodio.gitlens",
-    "donjayamanne.githistory",
     "mhutchie.git-graph",
     "codezombiech.gitignore",
-    "dbaeumer.vscode-eslint",
-    "VisualStudioExptTeam.vscodeintellicode",
-    "formulahendry.code-runner",
-    "ritwickdey.LiveServer",
-    "yzhang.markdown-all-in-one",
-    "ms-azuretools.vscode-docker",
-    "ms-kubernetes-tools.vscode-kubernetes-tools",
-    "ms-vscode-remote.remote-ssh",
-    "ms-vscode-remote.remote-wsl",
-    "ms-vscode-remote.remote-containers",
-    "microsoft.sql",
-    "microsoft.vscode-mssql",
-    "mtxr.sqltools",
-    "cweijan.vscode-mysql-client2",
-    "microsoft.vscode-postgresql",
-    "prisma.prisma",
-    "ms-ossdata.vscode-postgresql",
-    "mongodb.mongodb-vscode",
+
+    "editorconfig.editorconfig",
+    "usernamehw.errorlens",
+    "gruntfuggly.todo-tree",
     "humao.rest-client",
-    "microsoft.vscode-database-tools",
-    "cosmosdb.microsoft-azure-cosmosdb",
+    "mechatroner.rainbow-csv",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
+    "bierner.markdown-mermaid",
+
+    "ms-mssql.mssql",
+    "ms-ossdata.vscode-pgsql",
+    "mongodb.mongodb-vscode",
+    "ms-azuretools.vscode-cosmosdb",
+    "redis.redis-for-vscode",
+    "oracle.oracledevtools",
+    "qwtel.sqlite-viewer",
+    "prisma.prisma",
+
+    "cweijan.vscode-database-client2",
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg",
+    "mtxr.sqltools-driver-mysql",
+    "mtxr.sqltools-driver-sqlite",
+    "mtxr.sqltools-driver-mssql",
+
+    "adpyke.vscode-sql-formatter",
+    "dorzey.vscode-sqlfluff",
+
+    "ms-azuretools.vscode-containers",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
     "hashicorp.terraform",
     "redhat.ansible",
-    "ms-vscode-remote.remote-ssh-edit",
-    "eamodio.tsl-proxy",
-    "gruntfuggly.todo-tree"
+    "timonwong.shellcheck",
+
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-containers"
   ]
 }
